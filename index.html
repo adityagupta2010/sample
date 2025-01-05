@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LIC, Insurance and Property Sales Shop">
+    <title>Your Father's Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #34495e;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            background-color: #1abc9c;
+        }
+        section {
+            padding: 20px;
+        }
+        .service {
+            background-color: white;
+            margin: 20px 0;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .service h2 {
+            margin-top: 0;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #2c3e50;
+            color: white;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+        }
+        form button {
+            background-color: #1abc9c;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #16a085;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Your Father's Shop - LIC, Insurance & Property Sales</h1>
+</header>
+
+<nav>
+    <a href="#lic">LIC & Insurance</a>
+    <a href="#property">Property Sales</a>
+    <a href="#contact">Contact Us</a>
+</nav>
+
+<section id="lic">
+    <div class="service">
+        <h2>LIC & Insurance</h2>
+        <p>We offer a variety of Life Insurance policies to suit your needs. Secure your future and protect your loved ones with our trusted insurance services. Contact us for more details on various plans and premium options.</p>
+    </div>
+</section>
+
+<section id="property">
+    <div class="service">
+        <h2>Property Sales</h2>
+        <p>Looking for a new property? We specialize in buying and selling properties. Whether you’re looking for residential or commercial real estate, we provide expert advice and assist you in finding the perfect property.</p>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="service">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or would like to know more about our services, feel free to get in touch with us through the form below.</p>
+        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Your Father's Shop. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
